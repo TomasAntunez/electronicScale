@@ -1,0 +1,15 @@
+extends ./layout/index
+
+block content
+
+    .mt-10
+        h1.text-center.text-7xl.font-bold.py-10.text-indigo-600 #{page}
+    
+    .mt-8.mx-auto.max-w-md
+        .shadow.bg-white.p-10.rounded-lg
+            a(href="/averageTable10") 
+                button(class=" w-full py-4 bg-indigo-500 text-white font-bold text-center text-2xl uppercase rounded-lg hover:bg-indigo-600") Ver Caravanas
+            a(href="/uploadWeight") 
+                button(class=" w-full py-4 bg-indigo-500 text-white font-bold mt-10 text-center text-2xl uppercase rounded-lg hover:bg-indigo-600") Subir Pesadas
+            a(href="/uploadManualWeight") 
+                button(class=" w-full py-4 bg-indigo-500 text-white font-bold mt-10 text-center text-2xl uppercase rounded-lg hover:bg-indigo-600") Subir Pesadas Manuales

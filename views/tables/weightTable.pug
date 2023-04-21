@@ -1,0 +1,41 @@
+extends ../layout/index
+
+block content
+
+    a(href="/")
+        .mx-auto.max-w-sm
+            button(class="w-full py-4 bg-indigo-500 text-white font-bold text-center text-4xl uppercase rounded-lg hover:bg-indigo-600") Inicio
+
+    .mt-10
+        h1.text-center.text-6xl.font-bold.py-10 #{page}
+    
+    .mt-8.mx-auto.px-10
+        .shadow.bg-white.p-5.rounded-lg.mb-20
+            table.border-separate.border-spacing-4.w-full
+                thead
+                    tr.text-indigo-600
+                        th.text-2xl.border.rounded-md.p-4 NºCaravana 
+                        th.text-xl.border.rounded-md.p-3 Promedio Anterior
+                        th.text-xl.border.rounded-md.p-3 Dia #{dates[0]}
+                        th.text-xl.border.rounded-md.p-3 Dia #{dates[1]}
+                        th.text-xl.border.rounded-md.p-3 Dia #{dates[2]}
+                        th.text-xl.border.rounded-md.p-3 Dia #{dates[3]}
+                        th.text-xl.border.rounded-md.p-3 Dia #{dates[4]}
+                        th.text-xl.border.rounded-md.p-3 Dia #{dates[5]}
+                        th.text-xl.border.rounded-md.p-3 Dia #{dates[6]}
+                        th.text-xl.border.rounded-md.p-3 Proyecion Semanal
+                tbody.my-2.border
+                    each caravan in caravans
+                        tr
+                            td.text-center.font-bold.text-xl #{caravan.caravana}
+                            td.text-center.font-bold.text-xl #{caravan.pesoPromedioAnterior}kg
+
+                            each arrayPesada in caravan.pesadas
+                                td.text-center.py-3
+                                    each pesada in arrayPesada 
+                                        if pesada.msg 
+                                            p #{pesada.msg}
+                                        else 
+                                            p.font-bold.text-lg #{pesada.weight}kg
+
+                            td.text-center.font-bold.text-2xl #{caravan.pesoPronostico}kg

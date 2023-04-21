@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?mso-application progid="Excel.Sheet"?>
+<?Indicador st:Version="ver:2.10"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+<Worksheet ss:Name="PESADAS">
+<Names><NamedRange ss:Name="_FilterDatabase" ss:RefersTo="=PESADAS!R1C1:R1C8" ss:Hidden="1"/></Names><Table ss:DefaultColumnWidth="60" ss:DefaultRowHeight="15">
+<Row>
+<Cell><Data ss:Type="String">FECHA</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+<Cell><Data ss:Type="String">HORA</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+<Cell><Data ss:Type="String">CARAVANA</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+<Cell><Data ss:Type="String">SENASA</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+<Cell><Data ss:Type="String">LOTE</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+<Cell><Data ss:Type="String">ESTADO</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+<Cell><Data ss:Type="String">PESO</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">30/06/2022</Data></Cell>
+<Cell><Data ss:Type="String">10:29</Data></Cell>
+<Cell><Data ss:Type="Number">713484</Data></Cell>
+<Cell ss:Formula="=VLOOKUP(RC[-1],CARAVANAS!R2C1:R228C2,2,0)"><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">372</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">30/06/2022</Data></Cell>
+<Cell><Data ss:Type="String">10:30</Data></Cell>
+<Cell><Data ss:Type="Number">713484</Data></Cell>
+<Cell ss:Formula="=VLOOKUP(RC[-1],CARAVANAS!R2C1:R228C2,2,0)"><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">215</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">30/06/2022</Data></Cell>
+<Cell><Data ss:Type="String">10:49</Data></Cell>
+<Cell><Data ss:Type="Number">713491</Data></Cell>
+<Cell ss:Formula="=VLOOKUP(RC[-1],CARAVANAS!R2C1:R228C2,2,0)"><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">215</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">30/06/2022</Data></Cell>
+<Cell><Data ss:Type="String">10:49</Data></Cell>
+<Cell><Data ss:Type="Number">118971</Data></Cell>
+<Cell ss:Formula="=VLOOKUP(RC[-1],CARAVANAS!R2C1:R228C2,2,0)"><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">303</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">30/06/2022</Data></Cell>
+<Cell><Data ss:Type="String">10:50</Data></Cell>
+<Cell><Data ss:Type="String"> </Data></Cell>
+<Cell><Data ss:Type="String"> </Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">156</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">30/06/2022</Data></Cell>
+<Cell><Data ss:Type="String">10:52</Data></Cell>
+<Cell><Data ss:Type="Number">713439</Data></Cell>
+<Cell ss:Formula="=VLOOKUP(RC[-1],CARAVANAS!R2C1:R228C2,2,0)"><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">153</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">30/06/2022</Data></Cell>
+<Cell><Data ss:Type="String">10:55</Data></Cell>
+<Cell><Data ss:Type="Number">118914</Data></Cell>
+<Cell ss:Formula="=VLOOKUP(RC[-1],CARAVANAS!R2C1:R228C2,2,0)"><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">142</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">30/06/2022</Data></Cell>
+<Cell><Data ss:Type="String">11:02</Data></Cell>
+<Cell><Data ss:Type="Number">713461</Data></Cell>
+<Cell ss:Formula="=VLOOKUP(RC[-1],CARAVANAS!R2C1:R228C2,2,0)"><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">157</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">30/06/2022</Data></Cell>
+<Cell><Data ss:Type="String">11:02</Data></Cell>
+<Cell><Data ss:Type="Number">713480</Data></Cell>
+<Cell ss:Formula="=VLOOKUP(RC[-1],CARAVANAS!R2C1:R228C2,2,0)"><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">128</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">30/06/2022</Data></Cell>
+<Cell><Data ss:Type="String">11:03</Data></Cell>
+<Cell><Data ss:Type="String"> </Data></Cell>
+<Cell><Data ss:Type="String"> </Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">372</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">30/06/2022</Data></Cell>
+<Cell><Data ss:Type="String">11:05</Data></Cell>
+<Cell><Data ss:Type="Number">118968</Data></Cell>
+<Cell ss:Formula="=VLOOKUP(RC[-1],CARAVANAS!R2C1:R228C2,2,0)"><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">232</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">30/06/2022</Data></Cell>
+<Cell><Data ss:Type="String">11:05</Data></Cell>
+<Cell><Data ss:Type="String"> </Data></Cell>
+<Cell><Data ss:Type="String"> </Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">102</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">30/06/2022</Data></Cell>
+<Cell><Data ss:Type="String">11:06</Data></Cell>
+<Cell><Data ss:Type="Number">713461</Data></Cell>
+<Cell ss:Formula="=VLOOKUP(RC[-1],CARAVANAS!R2C1:R228C2,2,0)"><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">155</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">30/06/2022</Data></Cell>
+<Cell><Data ss:Type="String">11:07</Data></Cell>
+<Cell><Data ss:Type="Number">713461</Data></Cell>
+<Cell ss:Formula="=VLOOKUP(RC[-1],CARAVANAS!R2C1:R228C2,2,0)"><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">130</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">30/06/2022</Data></Cell>
+<Cell><Data ss:Type="String">11:09</Data></Cell>
+<Cell><Data ss:Type="Number">713490</Data></Cell>
+<Cell ss:Formula="=VLOOKUP(RC[-1],CARAVANAS!R2C1:R228C2,2,0)"><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">156</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">30/06/2022</Data></Cell>
+<Cell><Data ss:Type="String">11:10</Data></Cell>
+<Cell><Data ss:Type="Number">118937</Data></Cell>
+<Cell ss:Formula="=VLOOKUP(RC[-1],CARAVANAS!R2C1:R228C2,2,0)"><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">125</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">30/06/2022</Data></Cell>
+<Cell><Data ss:Type="String">11:13</Data></Cell>
+<Cell><Data ss:Type="Number">118937</Data></Cell>
+<Cell ss:Formula="=VLOOKUP(RC[-1],CARAVANAS!R2C1:R228C2,2,0)"><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">275</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">30/06/2022</Data></Cell>
+<Cell><Data ss:Type="String">11:14</Data></Cell>
+<Cell><Data ss:Type="Number">118937</Data></Cell>
+<Cell ss:Formula="=VLOOKUP(RC[-1],CARAVANAS!R2C1:R228C2,2,0)"><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">125</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">30/06/2022</Data></Cell>
+<Cell><Data ss:Type="String">11:16</Data></Cell>
+<Cell><Data ss:Type="Number">713409</Data></Cell>
+<Cell ss:Formula="=VLOOKUP(RC[-1],CARAVANAS!R2C1:R228C2,2,0)"><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">140</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">30/06/2022</Data></Cell>
+<Cell><Data ss:Type="String">11:17</Data></Cell>
+<Cell><Data ss:Type="Number">118904</Data></Cell>
+<Cell ss:Formula="=VLOOKUP(RC[-1],CARAVANAS!R2C1:R228C2,2,0)"><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">144</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">30/06/2022</Data></Cell>
+<Cell><Data ss:Type="String">11:17</Data></Cell>
+<Cell><Data ss:Type="Number">118981</Data></Cell>
+<Cell ss:Formula="=VLOOKUP(RC[-1],CARAVANAS!R2C1:R228C2,2,0)"><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">231</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">30/06/2022</Data></Cell>
+<Cell><Data ss:Type="String">11:17</Data></Cell>
+<Cell><Data ss:Type="Number">118981</Data></Cell>
+<Cell ss:Formula="=VLOOKUP(RC[-1],CARAVANAS!R2C1:R228C2,2,0)"><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">101</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">30/06/2022</Data></Cell>
+<Cell><Data ss:Type="String">11:18</Data></Cell>
+<Cell><Data ss:Type="String"> </Data></Cell>
+<Cell><Data ss:Type="String"> </Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">268</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">30/06/2022</Data></Cell>
+<Cell><Data ss:Type="String">11:18</Data></Cell>
+<Cell><Data ss:Type="Number">118989</Data></Cell>
+<Cell ss:Formula="=VLOOKUP(RC[-1],CARAVANAS!R2C1:R228C2,2,0)"><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">372</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">30/06/2022</Data></Cell>
+<Cell><Data ss:Type="String">11:19</Data></Cell>
+<Cell><Data ss:Type="String"> </Data></Cell>
+<Cell><Data ss:Type="String"> </Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">255</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">30/06/2022</Data></Cell>
+<Cell><Data ss:Type="String">11:20</Data></Cell>
+<Cell><Data ss:Type="String"> </Data></Cell>
+<Cell><Data ss:Type="String"> </Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">276</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">30/06/2022</Data></Cell>
+<Cell><Data ss:Type="String">11:20</Data></Cell>
+<Cell><Data ss:Type="String"> </Data></Cell>
+<Cell><Data ss:Type="String"> </Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">220</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">30/06/2022</Data></Cell>
+<Cell><Data ss:Type="String">11:25</Data></Cell>
+<Cell><Data ss:Type="Number">713437</Data></Cell>
+<Cell ss:Formula="=VLOOKUP(RC[-1],CARAVANAS!R2C1:R228C2,2,0)"><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">248</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">30/06/2022</Data></Cell>
+<Cell><Data ss:Type="String">11:26</Data></Cell>
+<Cell><Data ss:Type="String"> </Data></Cell>
+<Cell><Data ss:Type="String"> </Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">116</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">30/06/2022</Data></Cell>
+<Cell><Data ss:Type="String">11:27</Data></Cell>
+<Cell><Data ss:Type="Number">713412</Data></Cell>
+<Cell ss:Formula="=VLOOKUP(RC[-1],CARAVANAS!R2C1:R228C2,2,0)"><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">102</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">30/06/2022</Data></Cell>
+<Cell><Data ss:Type="String">11:27</Data></Cell>
+<Cell><Data ss:Type="Number">118936</Data></Cell>
+<Cell ss:Formula="=VLOOKUP(RC[-1],CARAVANAS!R2C1:R228C2,2,0)"><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">171</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">30/06/2022</Data></Cell>
+<Cell><Data ss:Type="String">11:46</Data></Cell>
+<Cell><Data ss:Type="Number">118965</Data></Cell>
+<Cell ss:Formula="=VLOOKUP(RC[-1],CARAVANAS!R2C1:R228C2,2,0)"><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">210</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">30/06/2022</Data></Cell>
+<Cell><Data ss:Type="String">11:46</Data></Cell>
+<Cell><Data ss:Type="Number">713040</Data></Cell>
+<Cell ss:Formula="=VLOOKUP(RC[-1],CARAVANAS!R2C1:R228C2,2,0)"><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">235</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">30/06/2022</Data></Cell>
+<Cell><Data ss:Type="String">11:46</Data></Cell>
+<Cell><Data ss:Type="Number">713067</Data></Cell>
+<Cell ss:Formula="=VLOOKUP(RC[-1],CARAVANAS!R2C1:R228C2,2,0)"><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">174</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">30/06/2022</Data></Cell>
+<Cell><Data ss:Type="String">11:46</Data></Cell>
+<Cell><Data ss:Type="Number">713455</Data></Cell>
+<Cell ss:Formula="=VLOOKUP(RC[-1],CARAVANAS!R2C1:R228C2,2,0)"><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">146</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">30/06/2022</Data></Cell>
+<Cell><Data ss:Type="String">11:48</Data></Cell>
+<Cell><Data ss:Type="Number">118918</Data></Cell>
+<Cell ss:Formula="=VLOOKUP(RC[-1],CARAVANAS!R2C1:R228C2,2,0)"><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">206</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">30/06/2022</Data></Cell>
+<Cell><Data ss:Type="String">11:48</Data></Cell>
+<Cell><Data ss:Type="Number">713059</Data></Cell>
+<Cell ss:Formula="=VLOOKUP(RC[-1],CARAVANAS!R2C1:R228C2,2,0)"><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">171</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">30/06/2022</Data></Cell>
+<Cell><Data ss:Type="String">11:48</Data></Cell>
+<Cell><Data ss:Type="String"> </Data></Cell>
+<Cell><Data ss:Type="String"> </Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">100</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">30/06/2022</Data></Cell>
+<Cell><Data ss:Type="String">11:49</Data></Cell>
+<Cell><Data ss:Type="Number">118969</Data></Cell>
+<Cell ss:Formula="=VLOOKUP(RC[-1],CARAVANAS!R2C1:R228C2,2,0)"><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">276</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">30/06/2022</Data></Cell>
+<Cell><Data ss:Type="String">11:52</Data></Cell>
+<Cell><Data ss:Type="Number">713473</Data></Cell>
+<Cell ss:Formula="=VLOOKUP(RC[-1],CARAVANAS!R2C1:R228C2,2,0)"><Data ss:Type="String"></Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">0</Data></Cell>
+<Cell><Data ss:Type="Number">162</Data></Cell>
+</Row>
+</Table>
+<WorksheetOptions/><AutoFilter x:Range="R1C1:R1C7" xmlns="urn:schemas-microsoft-com:office:excel"></AutoFilter><ss:WorksheetOptions/></Worksheet></Workbook>

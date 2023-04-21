@@ -1,0 +1,33 @@
+extends ../layout/index
+
+block content
+
+    a(href="/")
+        .mx-auto.max-w-sm
+            button(class="w-full py-4 bg-indigo-500 text-white font-bold text-center text-4xl uppercase rounded-lg hover:bg-indigo-600") Inicio
+
+    .mt-10
+        h1.text-center.text-6xl.font-bold.py-10 #{page}
+    
+    .mt-8.mx-auto.px-10
+        .shadow.bg-white.p-5.rounded-lg.mb-20
+            table.border-separate.border-spacing-5.w-full
+                thead
+                    tr.text-indigo-600
+                        th.text-2xl.border.rounded-md.p-4 NºCaravana 
+                        th.text-xl.border.rounded-md.p-3 Semana 8/8 - 15/8
+                        th.text-xl.border.rounded-md.p-3 Semana 15/8 - 22/8
+                        th.text-xl.border.rounded-md.p-3 Semana 22/8 - 29-8
+                        th.text-xl.border.rounded-md.p-3 Semana 29/8 - 5/9
+                        th.text-xl.border.rounded-md.p-3 Semana 5/9 - 12/9
+                        th.text-xl.border.rounded-md.p-3 Semana 12/9 - 19/9
+                        th.text-xl.border.rounded-md.p-3 Proyecion total
+                tbody.my-2.border
+                    each caravan in caravans
+                        tr
+                            td.text-center.font-bold.text-xl #{caravan.caravana}
+
+                            each pronostico in caravan.pronosticos
+                                td.text-center.py-3.font-bold.text-xl.border-b.text-gray-500 #{pronostico}kg
+
+                            td.text-center.font-bold.text-2xl #{caravan.pronosticoTotal}kg

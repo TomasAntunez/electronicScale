@@ -1,0 +1,32 @@
+extends ../layout/index
+
+block content
+
+    a(href="/")
+        .mx-auto.max-w-sm
+            button(class="w-full py-4 bg-indigo-500 text-white font-bold text-center text-4xl uppercase rounded-lg hover:bg-indigo-600") Inicio
+
+    .mt-10
+        h1.text-center.text-6xl.font-bold.py-10 #{page}
+    
+    .mt-8.mx-auto.px-10
+        .shadow.bg-white.p-5.rounded-lg.mb-20
+            table.border-separate.border-spacing-5.w-full
+                thead
+                    tr.text-indigo-600
+                        th.text-2xl.border.rounded-md.p-4 NºCaravana
+
+                        each date in dates 
+                            th.text-xl.border.rounded-md.p-3 #{date}
+
+                        th.text-xl.border.rounded-md.p-3 Proyecion Promedios
+                        
+                tbody.my-2.border
+                    each caravan in caravans
+                        tr
+                            td.text-center.font-bold.text-xl #{caravan.caravana}
+
+                            each promedio in caravan.promedios
+                                td.text-center.py-3.font-bold.text-xl.border-b.text-gray-500 #{promedio}kg
+
+                            td.text-center.font-bold.text-2xl #{caravan.pronosticoTotal}kg
